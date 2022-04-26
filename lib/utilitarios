@@ -1,0 +1,55 @@
+ FloatingActionButton(
+                // heroTag: Hero(tag:, child: child),
+                onPressed: () => {Navigator.pop(context)},
+                elevation: 50,
+                splashColor: const Color(0xFFFFFFFF),
+                backgroundColor: const Color.fromARGB(255, 242, 6, 76),
+                tooltip: 'Voltar',
+                child: const Icon(Icons.keyboard_return),
+              ),
+              const SizedBox(
+                height: 40,
+              ),
+
+
+
+
+
+
+                        //  AnimatedTextKit(
+          //         animatedTexts: [
+          //           FadeAnimatedText(
+          //             'Hello world!',
+          //             textStyle: const TextStyle(
+          //               fontSize: 32.0,
+          //               fontWeight: FontWeight.bold,
+          //             ),
+          //             // speed: const Duration(milliseconds: 200),
+          //           ),
+          //         ],
+                  
+          //         totalRepeatCount: 4,
+          //         pause: const Duration(milliseconds: 1000),
+          //         displayFullTextOnTap: true,
+          //         stopPauseOnTap: true,
+          //       )
+
+
+
+
+                          // RichText(
+          //   text: TextSpan(
+          //     text: 'Memory ',
+          //     style: DefaultTextStyle.of(context).style.copyWith(
+          //         fontSize: 30, color: const Color.fromARGB(255, 242, 6, 76)),
+          //     children: [
+          //       TextSpan(
+          //         text: 'Game',
+          //         style: DefaultTextStyle.of(context).style.copyWith(
+          //             fontSize: 30,
+          //             color: const Color.fromARGB(255, 57, 211, 0)),
+          //       )
+          //     ],
+          //   ),
+          // ),
+        // ),
